@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Database files (for SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Flask-specific
+instance/
+.webassets-cache/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-*
+*.DS_Store # macOS specific
+Thumbs.db  # Windows specific
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+
+# Test/coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Environment variables (important for sensitive data)
+.env
